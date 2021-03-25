@@ -11,19 +11,3 @@ First Name: %%=v(@First_Name)=%%
 <br>Middle Name: %%=v(@Middle_Name)=%%
 <br>Last Name: %%=v(@Last_Name)=%%
 <br>Email Address: %%=v(@Email_Address)=%%
-
-
-%%[ var @CardTierDesc set @CardTierDesc = [Card Tier Desc]
-set @action = 'Diamond' 
-]%%
-
-%%[ IF @action == "AttributeValue('Emerald')" THEN ]%% 
-<p>This is the Emerald message</p> 
-
-%%[ IF @action == 'Diamond' THEN ]%% 
-<p>This is the diamond messge.</p> 
-
-%%[ IF @action == "AttributeValue('Crown')" THEN ]%% 
-<p>CROWN IS THE RULER</p>
-  
-%%[ENDIF]%%
