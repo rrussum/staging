@@ -19,10 +19,10 @@ set @action = 'Diamond'
 
 %%[ IF @action == "AttributeValue('Emerald')" THEN ]%% 
 <p>This is the Emerald message</p> 
-%%[ENDIF]%%
+
 %%[ IF @action == 'Diamond' THEN ]%% 
 <p>This is the diamond messge.</p> 
-%%[ENDIF]%%
+
 %%[ IF @action == "AttributeValue('Crown')" THEN ]%% 
 <p>CROWN IS THE RULER</p>
   
