@@ -1,10 +1,9 @@
 %%[
 /*FOR TESTING ONLY*/
-SET @First_Name = 'Richard'
-SET @Middle_Name = 'George'
-SET @Last_Name = 'Russum'
-SET @Email_Address = 'rrussum@rodanandfields.com'
-SET @action = 'Diamond'
+SET @First_Name = 'Roger'
+SET @Middle_Name = 'Ted'
+SET @Last_Name = 'Hollo'
+SET @Email_Address = 'roger@rabbit.com'
 ]%%
 
 First Name: %%=v(@First_Name)=%%
