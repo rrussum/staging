@@ -1,0 +1,11 @@
+%%[
+
+SET @First_Name = 'Richard'
+SET @Last_Name = 'Russum'
+SET @Email_Address = 'rrussum@rodanandfields.com'
+
+]%%
+
+First Name: %%=v(@First_Name)=%%
+Last Name: %%=v(@Last_Name)=%%
+Email Address: %%=v(@Email_Address)=%%
