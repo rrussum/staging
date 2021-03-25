@@ -12,4 +12,3 @@ First Name: %%=v(@First_Name)=%%
 <br>Middle Name: %%=v(@Middle_Name)=%%
 <br>Last Name: %%=v(@Last_Name)=%%
 <br>Email Address: %%=v(@Email_Address)=%%
-<br>Country Code: %%=v(@CountryCode)=%%
