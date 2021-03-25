@@ -8,6 +8,6 @@ SET @Email_Address = 'rrussum@rodanandfields.com'
 ]%%
 
 First Name: %%=v(@First_Name)=%%
-Middle Name: %%=v(@Middle_Name)=%%
-Last Name: %%=v(@Last_Name)=%%
-Email Address: %%=v(@Email_Address)=%%
+<br>Middle Name: %%=v(@Middle_Name)=%%
+<br>Last Name: %%=v(@Last_Name)=%%
+<br>Email Address: %%=v(@Email_Address)=%%
