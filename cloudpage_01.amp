@@ -1,5 +1,5 @@
 %%[
-
+/*FOR TESTING ONLY*/
 SET @First_Name = 'Richard'
 SET @Middle_Name = 'George'
 SET @Last_Name = 'Russum'
