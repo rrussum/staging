@@ -4,9 +4,12 @@ SET @First_Name = 'Roger'
 SET @Middle_Name = 'Ted'
 SET @Last_Name = 'Hollo'
 SET @Email_Address = 'roger@rabbit.com'
+SET @LU_AccountSFID = '0031a00000s1EMDAA2'
+SET @CountryCode = Lookup('Ent.Consumers','Country','@LU_AccountSFID','0031a00000s1EMDAA2' )
 ]%%
 
 First Name: %%=v(@First_Name)=%%
 <br>Middle Name: %%=v(@Middle_Name)=%%
 <br>Last Name: %%=v(@Last_Name)=%%
 <br>Email Address: %%=v(@Email_Address)=%%
+<br>Country Code: %%=v(@CountryCode)=%%
